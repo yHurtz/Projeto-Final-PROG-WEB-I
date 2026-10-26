@@ -8,7 +8,7 @@
 }
 
 .navbar {
-    padding: 25px 0;
+    padding: 18px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,6 +35,35 @@
 
 }
 
+.navigation a:hover{
+    color: #00FF88;
+    transition: .5s;    
+}
+
+.acoes-navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-shrink: 0;
+}
+
+.icones-navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icones-navbar a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.icones-navbar a:hover {
+    color: #00FF88;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -53,9 +82,6 @@ a {
 
 .button-navbar:hover {
     background-color: #171F1B;
-}
-
-a:hover {
     color: #00FF88;
     transition: .5s;
 }
